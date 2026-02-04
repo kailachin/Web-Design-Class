@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(71, 95, 70);
+    border-bottom: 2px solid rgb(255, 255, 255);
+   
+
+}
+body{
+    background-color: rgba(156, 182, 162, 0.381)
+}
+h1{
+    font-size: 42px;
+    margin: 0px, 100, 0px, 100px;
+    color: rgb(255, 255, 255);
+}
+h2{
+    margin: 0px 100px 0px 100px; 
+}
+h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+h4{
+    margin: 5px 120px 10px 120px;
+}
+
+
+.principles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.airplane{
+    background-image: url(images/paperairplane.png);
+    height: 200px;
+    width: 600px;
+    background-size: contain;
+    margin: 10px 120px 10px 10px;
+    background-repeat: no-repeat;
+}
+.thumbsUp{
+    background-image: url(images/ThumbsUp.png);
+    height: 200px;
+    width: 400px;
+    background-size: contain;
+    margin: 10px 10px 10px 120px;
+    background-repeat: no-repeat;   
+
+}
+.stars{
+    background-image: url(images/stars.png);
+    height: 200px;
+    width: 600px;
+    background-size: contain;
+    margin: 10px 120px 10px 10px;
+    background-repeat: no-repeat;
+}
+.check{
+    background-image: url(images/check.png);
+    height: 300px;
+    width: 400px;
+    background-size: contain;
+    margin: 10px 10px 10px 120px;
+    background-repeat: no-repeat;   
+
+}
+.tools{
+    background-image: url(images/tools.png);
+    height: 200px;
+    width: 600px;
+    background-size: contain;
+    margin: 10px 120px 10px 10px;
+    background-repeat: no-repeat;
+
+}
+.honest{
+    background-image: url(images/honest.png);
+    height: 300px;
+    width: 400px;
+    background-size: contain;
+    margin: 10px 10px 10px 120px;
+    background-repeat: no-repeat; 
+}
+.infinity{
+    background-image: url(images/infinity.png);
+    height: 350px;
+    width: 600px;
+    background-size: contain;
+    margin: 10px 120px 10px 10px;
+    background-repeat: no-repeat;
+}
+.target{
+    background-image: url(images/target.png);
+    height: 300px;
+    width: 400px;
+    background-size: contain;
+    margin: 10px 10px 10px 120px;
+    background-repeat: no-repeat; 
+}
+.hand{
+    background-image: url(images/hand.png);
+    height: 200px;
+    width: 600px;
+    background-size: contain;
+    margin: 10px 120px 10px 10px;
+    background-repeat: no-repeat;
+}
+.vital{
+    background-image: url(images/vital.png);
+    height: 100px;
+    width: 400px;
+    background-size: contain;
+    margin: 10px 10px 10px 120px;
+    background-repeat: no-repeat; 
+}
+
+.climate-crisis {
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
+}
+.oi-regular {
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.vidaloka-regular {
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h5{
+    margin: 100px 100px 10px 100px;
+}
+
