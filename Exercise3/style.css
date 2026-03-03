@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+#lyrics{
+    position: absolute;
+    font-size: 28px;
+    text-align: center;
+
+}
+.slow{
+    transition: letter-spacing 0.3s;
+}
+.slow:hover{
+    letter-spacing: 10px;
+}
+.slow span{
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.slow span:hover{
+    transform: scale(1.75);
+}
+.fine{
+    text-transform: uppercase;
+    transform: transform 3s;
+}
+.fine h2:hover{
+    cursor: pointer;
+    font-style: italic;
+}
+.third{
+    opacity: 0.5;
+    transition: 3s;
+}
+.third:hover{
+    opacity: 1;
+}
+.everything{
+    transition: all 2s;
+    display: inline-block;
+}
+.everything:hover{
+    transform: scale3d(2,2,2);
+    cursor: pointer;
+}
+.want{
+    text-transform: uppercase;
+}
+.falling{
+    opacity: 1;
+}
+.before{
+    display: inline-block;
+    animation: fallAndDisappear 3s 7s forwards;
+}
+.your{
+    display: inline-block;
+    animation: fallAndDisappear 3s 10s forwards;
+}
+.time{
+    display: inline-block;
+    animation: fallAndDisappear 3s 13s forwards;
+}
+
+@keyframes fallAndDisappear{
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+}
+
+
+
+.fascinate-inline-regular {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
